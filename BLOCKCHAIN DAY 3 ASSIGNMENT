@@ -1,0 +1,13 @@
+pragma solidity ^0.4.17;
+
+contract MyContract{
+    string message;
+    
+    function HelloWorld() public{
+        message = "Hello World!";
+    }
+    
+    function SayHello() public view returns(string){
+        return message;
+    }
+}
